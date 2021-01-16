@@ -1,0 +1,17 @@
+.div{
+	background:#464744;
+	height:40px;
+	width: 100%;
+	color: white;
+	text-align: right;
+	padding: 20px 50px;
+	padding-top: 10px;
+	font-family: HoloLens MDL2 Assets;
+	font-size: 15px;
+}
+
+.div a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}

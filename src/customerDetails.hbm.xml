@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 5 Mar, 2020 4:36:44 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.niit.model.CustomerDetails" table="CUSTOMERDETAILS">
+        <id name="id" type="java.lang.Integer">
+            <column name="Id" />
+            <generator class="identity" />
+        </id>
+        <property name="Firstname" type="java.lang.String">
+            <column name="Firstname" />
+        </property>
+        <property name="lastname" type="java.lang.String">
+            <column name="LASTNAME" />
+        </property>
+        <property name="Email" type="java.lang.String">
+            <column name="EMAIL" unique="true"/>
+        </property>
+        <property name="Password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="Address" type="java.lang.String">
+            <column name="ADDRESS" />
+        </property>
+        <property name="Address2" type="java.lang.String">
+            <column name="ADDRESS2" unique="true" />
+        </property>
+        <property name="City" type="java.lang.String">
+            <column name="CITY" />
+        </property>
+         <property name="roll" type="java.lang.String">
+            <column name="Roll" default="USER" not-null="true"/>
+        </property>
+           <property name="hello" type="java.lang.Integer">
+            <column name="Hello" default="Hello" not-null="true" />
+        </property>
+     
+    </class>
+</hibernate-mapping>
