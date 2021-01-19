@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Wood craft</title>
+<title>woodcraft</title>
   <link rel="stylesheet" type="text/css" href="css/final.css">
 </head>
 <body>
