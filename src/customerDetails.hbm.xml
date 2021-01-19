@@ -32,9 +32,7 @@
          <property name="roll" type="java.lang.String">
             <column name="Roll" default="USER" not-null="true"/>
         </property>
-           <property name="hello" type="java.lang.Integer">
-            <column name="Hello" default="Hello" not-null="true" />
-        </property>
+           
      
     </class>
 </hibernate-mapping>

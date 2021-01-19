@@ -62,14 +62,9 @@ public class CustomerDetails {
 	String address2;
 	String city;
 	int id;
-	int hello;
 	
-	public int getHello() {
-		return hello;
-	}
-	public void setHello(int hello) {
-		this.hello = hello;
-	}
+	
+	
 	public String getRoll() {
 		return roll;
 	}
